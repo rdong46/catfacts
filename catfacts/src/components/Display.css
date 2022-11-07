@@ -1,0 +1,26 @@
+.favorite {
+  background-color: pink;
+}
+
+#box {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+.button {
+  justify-self: end;
+}
+
+.noshow {
+  display: none;
+}
+
+.show {
+  display: block;
+}
