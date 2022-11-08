@@ -2,6 +2,7 @@ import "./App.css";
 import Display from "./components/Display";
 import Button from "./components/Button";
 import { useEffect, useState } from "react";
+import background from "./images/download.jpg";
 
 function App() {
   const [facts, setFacts] = useState([]);
@@ -63,7 +64,7 @@ function App() {
   }
 
   return (
-    <div className="center">
+    <div className="center" style={{ backgroundImage: `url(${background})` }}>
       <h2>Cat Facts</h2>
       <Display
         fact={currentFact}

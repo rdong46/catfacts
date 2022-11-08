@@ -2,6 +2,10 @@
   background-color: pink;
 }
 
+.not-favorite {
+  background-color: whitesmoke;
+}
+
 #box {
   width: 500px;
   height: 300px;
