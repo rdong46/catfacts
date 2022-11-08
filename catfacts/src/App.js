@@ -74,7 +74,11 @@ function App() {
       <div className="history">
         {facts.map((fact, index) => {
           return (
-            <button key={index} onClick={() => handleClick(index)}>
+            <button
+              className={facts[index]["favorite"] ? "pink" : "none"}
+              key={index}
+              onClick={() => handleClick(index)}
+            >
               {index === 0 ? "Current Fact" : index}
             </button>
           );
