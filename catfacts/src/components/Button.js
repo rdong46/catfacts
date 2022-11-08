@@ -5,7 +5,7 @@ function Button(props) {
   return (
     <div>
       <button onClick={props.onClick} className="next">
-        Next Fact!
+        {props.facts.length === 0 ? "First Fact!" : "Next Fact!"}
       </button>
     </div>
   );

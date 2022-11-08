@@ -85,7 +85,7 @@ function App() {
         })}
       </div>
 
-      <Button onClick={getNextFact} />
+      <Button onClick={getNextFact} facts={facts} />
     </div>
   );
 }
