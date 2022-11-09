@@ -1,30 +1,15 @@
-.favorite {
-  background-color: pink;
-}
-
-.not-favorite {
-  background-color: whitesmoke;
-}
-
 #box {
   width: 500px;
-  height: 300px;
+  height: 175px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 5px;
   flex-direction: column;
   border: 1px black solid;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .button {
   justify-self: end;
-}
-
-.noshow {
-  display: none;
-}
-
-.show {
-  display: block;
 }

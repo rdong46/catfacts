@@ -1,0 +1,16 @@
+.box {
+  width: 800px;
+  height: 500px;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  margin: 10px;
+}
+
+.pink {
+  background-color: pink;
+}
